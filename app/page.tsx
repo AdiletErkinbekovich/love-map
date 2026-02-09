@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { WorldMap } from '../components/WorldMap';
+import WorldMap from '../components/WorldMap';
 
 export default function Home() {
   return (
