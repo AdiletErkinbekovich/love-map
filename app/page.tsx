@@ -51,7 +51,7 @@ export default function Home() {
               ${showTitle ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}
             `}
         >
-          Hover over a country — and see how i would say "I love you" there ❤️
+          Hover over a country — and see how i would say &quot;I love you there ❤️&quot;!
         </p>
 
         {/* MAP */}
