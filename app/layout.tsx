@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'my lovely Diana! ❤️',
+  title: 'love map ❤️',
   description: 'love you forever and always',
 };
 

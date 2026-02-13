@@ -1,3 +1,3 @@
-import { WorldMap } from './ui/WorldMap';
+import { WorldMap } from './WorldMap';
 
 export default WorldMap;
