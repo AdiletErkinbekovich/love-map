@@ -53,8 +53,8 @@ export const LoveEnvelope = ({ onFinish }: Props) => {
                   ${showSubtext ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-3'}
                 `}
               >
-                <div>but in all languages</div>
-                <div>of the world</div>
+                <p>but in all languages</p>
+                <p>of the world</p>
               </div>
             </div>
 

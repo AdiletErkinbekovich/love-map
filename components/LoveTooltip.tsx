@@ -1,10 +1,10 @@
 type Props = {
   text: string;
-  inplace: string | null;
+  inPlace: string | null;
   visible: boolean;
 };
 
-export const LoveTooltip = ({ text, inplace, visible }: Props) => {
+export const LoveTooltip = ({ text, inPlace, visible }: Props) => {
   return (
     <div
       className={`
@@ -20,7 +20,7 @@ export const LoveTooltip = ({ text, inplace, visible }: Props) => {
   `}
     >
       <span className="block text-xs opacity-80 mb-0.5">
-        in <span className="italic">"{inplace}"</span> i'd say :
+        {`In  ${inPlace} : 'the world'}, I'd say: `}
       </span>
 
       <span className="font-medium">{text}</span>

@@ -11,7 +11,7 @@ import { LoveTooltip } from '../LoveTooltip';
 const geoUrl = 'https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json';
 
 export const WorldMap = () => {
-  const [inplace, setInplace] = useState<string | null>(null);
+  const [inPlace, setInPlace] = useState<string | null>(null);
   const [tooltip, setTooltip] = useState<{ text: string; x: number; y: number } | null>(null);
   const [visible, setVisible] = useState(false);
 
@@ -27,7 +27,7 @@ export const WorldMap = () => {
               transform: 'translate(12px, 12px)',
             }}
           >
-            <LoveTooltip text={tooltip.text} inplace={inplace} visible={visible} />
+            <LoveTooltip text={tooltip.text} inPlace={inPlace} visible={visible} />
           </div>
         )}
 
@@ -49,7 +49,7 @@ export const WorldMap = () => {
                       const iso = countryCodeMap[geo.id] ?? 'US';
                       const loveText = loveByISO[iso] ?? 'I love you';
 
-                      setInplace(geo.properties.name);
+                      setInPlace(geo.properties.name);
                       setTooltip({
                         text: loveText,
                         x: e.clientX,
