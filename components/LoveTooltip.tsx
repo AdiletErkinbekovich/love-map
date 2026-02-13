@@ -19,9 +19,7 @@ export const LoveTooltip = ({ text, inPlace, visible }: Props) => {
     ${visible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}
   `}
     >
-      <span className="block text-xs opacity-80 mb-0.5">
-        {`In  ${inPlace} : 'the world'}, I'd say: `}
-      </span>
+      <span className="block text-xs opacity-80 mb-0.5">{`In  ${inPlace} I'd say: `}</span>
 
       <span className="font-medium">{text}</span>
 
