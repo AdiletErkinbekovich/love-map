@@ -43,7 +43,9 @@ export const LoveEnvelope = ({ onFinish }: Props) => {
               `}
             >
               {/* MAIN TEXT */}
-              <div className="text-3xl font-semibold tracking-wide">I love you</div>
+              <div className="text-3xl font-semibold tracking-wide">
+                Diana <br />I love you
+              </div>
 
               {/* SUBTEXT */}
               <div
